@@ -171,7 +171,7 @@ newGameButton.addEventListener('click', () => {
     document.getElementById('bottom-left').innerText = "";
     document.getElementById('bottom-middle').innerText = "";
     document.getElementById('bottom-right').innerText = "";
-    let gameBoard = createBoard();
+    gameBoard = createBoard();
 });
 
 function playGame() {
